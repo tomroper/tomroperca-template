@@ -7,10 +7,6 @@
 		{{ partial "portfolio" . }}
 	{{ end }}
 
-	{{ if not .Site.Params.recentposts.hide }}
-		{{ partial "recent-posts" . }}
-	{{ end }}
-
 	{{ if not .Site.Params.contact.hide }}
 		{{ partial "contact" . }}
 	{{ end }}
